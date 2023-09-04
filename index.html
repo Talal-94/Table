@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Table</title>
+    <link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">  
+</head>
+  <body>
+    <div class="container m-2">
+      <div class="datepickers-container">
+        <div class="labels mb-1">
+            <label class="mx-2" for="start-date">Start Date:</label>
+            <label class="mx-5" for="end-date">End Date:</label>
+        </div>
+        <div class="datepicker d-flex mb-4">
+            <input class="mx-3" type="date" id="start-date" name="start-date"/>
+            <input  class="mx-1" type="date" id="end-date" name="end-date"/>
+            <button type="button" class="btn btn-success mx-2">Apply</button>
+        </div>
+      </div>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Quantity</th>
+            <th>View / Delete</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>March 2, 2020</td>
+            <td>3</td>
+            <td>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-primary">View</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>January 2, 2020</td>
+            <td>3</td>
+            <td>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-primary">View</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>March 1, 2020</td>
+            <td>2</td>
+            <td>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-primary">View</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>January 1, 2020</td>
+            <td>1</td>
+            <td>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-primary">View</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>March 1, 2020</td>
+            <td>2</td>
+            <td>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-primary">View</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>March 1, 2020</td>
+            <td>2</td>
+            <td>
+              <button type="button" class="btn btn-danger">Delete</button>
+              <button type="button" class="btn btn-primary">View</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
